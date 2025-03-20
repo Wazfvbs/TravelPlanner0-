@@ -1,0 +1,85 @@
+/* 全局样式 */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    color: #333;
+}
+
+/* 导航栏样式 */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.nav-links a, .user-actions a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    margin-left: 1rem;
+}
+
+/* 头部样式 */
+.header {
+    text-align: center;
+    padding: 4rem 1rem;
+    background-color: #ffffff;
+}
+
+.header h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    color: #04a774;
+}
+
+.search-bar {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.search-bar input {
+    padding: 1rem;
+    border: 2px solid #ccc;
+    border-radius: 30px 0 0 30px;
+    width: 400px;
+    font-size: 1.2rem;
+}
+
+.search-bar button {
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 0 30px 30px 0;
+    background-color: #04a774;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+
+/* 主内容样式 */
+.main-content {
+    position: relative;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.main-content img {
+    width: 80%; /* 图片缩小到 80% */
+    height: auto;
+    border-radius: 10px;
+}
+
+.overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 1.5rem;
+    border-radius: 10px;
+}

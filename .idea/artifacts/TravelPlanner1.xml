@@ -1,0 +1,26 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="TravelPlanner1">
+    <output-path>$PROJECT_DIR$/out/artifacts/TravelPlanner1</output-path>
+    <root id="archive" name="TravelPlanner1.war">
+      <element id="artifact" artifact-name="TravelPlanner0:war exploded" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/jstl-1.2.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/standard-1.1.2.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/gson-2.11.0.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/fastjson2-2.0.34.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/mysql-connector-java-6.0.2.jar" />
+        </element>
+        <element id="directory" name="classes">
+          <element id="library" level="application" name="jquery" />
+          <element id="library" level="application" name="addToolbar" />
+          <element id="library" level="application" name="main1119" />
+          <element id="library" level="application" name="es5" />
+          <element id="library" level="application" name="font-awesome" />
+          <element id="library" level="application" name="bootstrap" />
+          <element id="library" level="application" name="jquery-3.6.0" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,93 @@
+/* 通用样式 */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #64b5f6, #42a5f5);
+    color: #ffffff;
+}
+
+/* 容器样式 */
+.auth-container {
+    background: #ffffff;
+    width: 100%;
+    max-width: 400px;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    color: #333333;
+}
+
+/* 标题样式 */
+.auth-form h2 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #1e88e5;
+    margin-bottom: 20px;
+}
+
+/* 输入框样式 */
+.auth-form input {
+    margin: 10px 0;
+    padding: 12px;
+    font-size: 16px;
+    width: 100%;
+    border: 1px solid #cccccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.auth-form input:focus {
+    border-color: #42a5f5;
+    box-shadow: 0 0 8px rgba(66, 165, 245, 0.5);
+    outline: none;
+}
+
+/* 按钮样式 */
+.auth-form button {
+    width: 100%;
+    padding: 12px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #1e88e5;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s;
+}
+
+.auth-form button:hover {
+    background-color: #1565c0;
+    transform: translateY(-2px);
+}
+
+.auth-form button:active {
+    background-color: #0d47a1;
+    transform: translateY(0);
+}
+
+/* 链接和附加文字 */
+.auth-form p {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #666666;
+}
+
+.auth-form a {
+    color: #42a5f5;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease, text-decoration 0.3s ease;
+}
+
+.auth-form a:hover {
+    color: #1e88e5;
+    text-decoration: underline;
+}

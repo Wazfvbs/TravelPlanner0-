@@ -1,0 +1,153 @@
+body {
+    background-color: #e6f7ff; /* 浅蓝色背景 */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #0078D4; /* 天蓝色背景 */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    color: white;
+}
+
+header h1 {
+    font-size: 1.8em;
+    margin: 0;
+}
+
+header button {
+    background-color: white;
+    color: #0078D4;
+    padding: 5px 10px;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+header button:hover {
+    background-color: #d0eaff; /* 悬停效果 */
+}
+
+#attractions {
+    padding: 20px;
+    text-align: center;
+}
+
+#attractions h2 {
+    font-size: 1.8em;
+    color: #333;
+}
+
+#attraction-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+.card {
+    background: #ffffff;
+    border-color: #87ceeb; /* 天蓝色边框 */
+    width: 200px;
+    height: 150px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 3px 3px 12px rgba(0, 0, 0, 0.2);
+}
+
+.card.selected {
+    border-color: #0078D4; /* 选中状态边框 */
+
+    background-color: rgba(76, 175, 80, 0.1);
+}
+
+.card h3 {
+    color: #0078D4;
+    font-size: 1.2em;
+    margin: 5px 0;
+    text-align: center;
+}
+
+.card p {
+    margin: 2px 0;
+    font-size: 0.9em;
+    color: #555;
+    line-height: 1.2;
+}
+
+button#submit-btn {
+    background-color: #0078D4; /* 天蓝色按钮 */
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+button#submit-btn:hover {
+    background-color: #005b9e; /* 悬停效果 */
+}
+
+.comment-box {
+    background-color: #f0f8ff; /* 评论区背景 */
+    border-color: #add8e6;
+}
+
+.page-btn {
+    background-color: #0078D4;
+}
+
+.page-btn:hover {
+    background-color: #005b9e;
+}
+
+.page-btn.active {
+    background-color: #004080;
+}
+
+.auth-container {
+    background: #ffffff;
+    border-color: #add8e6; /* 添加淡蓝色边框 */
+}
+
+.auth-form h2 {
+    color: #0078D4;
+}
+
+.auth-form button {
+    background-color: #0078D4;
+}
+
+.auth-form button:hover {
+    background-color: #005b9e;
+}
+
+.auth-form a {
+    color: #0078D4;
+}
+
+.auth-form a:hover {
+    color: #005b9e;
+}
+
+.controls-overlay {
+    background: rgba(0, 120, 212, 0.1); /* 半透明背景 */
+    border-color: #add8e6;
+}

@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+.header {
+    background: #0078D4;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+.header h1 {
+    margin: 0;
+}
+.content {
+    padding: 20px;
+}
+.attraction-info {
+    margin-bottom: 20px;
+}
+.attraction-info h2 {
+    margin-bottom: 10px;
+}
+.attraction-info p {
+    margin: 5px 0;
+}
+.comments {
+    margin-top: 30px;
+}
+.comments h3 {
+    margin-bottom: 10px;
+}
+.comment {
+    padding: 10px;
+    margin-bottom: 10px;
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+.actions {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 20px;
+}
+.actions button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.like-btn {
+    background: #4CAF50;
+    color: #fff;
+}
+.dislike-btn {
+    background: #f44336;
+    color: #fff;
+}
+.wish-btn {
+    background: #0078D4;
+    color: #fff;
+}
+.like-btn:hover,
+.dislike-btn:hover,
+.wish-btn:hover {
+    opacity: 0.9;
+}

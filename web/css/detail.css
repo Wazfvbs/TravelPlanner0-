@@ -1,0 +1,144 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e6f7ff;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.header {
+    background: #0078D4;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+
+.header h1 {
+    margin: 0;
+}
+
+.content {
+    padding: 20px;
+}
+
+.attraction-info {
+    margin-bottom: 20px;
+}
+
+.attraction-info h2 {
+    margin-bottom: 10px;
+}
+
+.attraction-info p {
+    margin: 5px 0;
+}
+
+.comments {
+    margin-top: 30px;
+}
+
+.comments h3 {
+    margin-bottom: 10px;
+}
+
+.comment {
+    padding: 10px;
+    margin-bottom: 10px;
+    background: #f0f8ff;
+    border: 1px solid #87ceeb;
+    border-radius: 5px;
+}
+
+.actions {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.actions button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.like-btn {
+    background: #4CAF50;
+    color: #ffffff;
+}
+
+.dislike-btn {
+    background: #FF6347;
+    color: #ffffff;
+}
+
+.wish-btn {
+    background: #0078D4;
+    color: #ffffff;
+}
+
+.like-btn:hover,
+.dislike-btn:hover,
+.wish-btn:hover {
+    opacity: 0.9;
+}
+
+/* 初始样式 */
+.actions .btn {
+    transition: all 0.3s ease;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.like-btn {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.dislike-btn {
+    background-color: #FF6347;
+    color: white;
+}
+
+/* 点赞后变大 */
+.like-btn.liked {
+    width: calc(100% - 20px);
+    background-color: #4CAF50;
+    color: white;
+    margin: 0;
+    text-align: center;
+}
+
+.dislike-btn.hidden {
+    display: none;
+}
+
+/* 按钮默认样式 */
+.btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+/* 激活按钮的横向扩展样式 */
+.btn.expanded {
+    flex-grow: 2; /* 占据父容器更大空间 */
+    padding: 10px 40px;
+    font-size: 18px;
+}

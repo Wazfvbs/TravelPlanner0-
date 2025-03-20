@@ -1,0 +1,176 @@
+/* 基础样式 */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f7fa; /* 替换为柔和浅灰色背景 */
+    color: #333;
+}
+
+/* 容器样式 */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* 头部样式 */
+.header {
+    text-align: center;
+    background: linear-gradient(135deg, #007bff, #0056b3); /* 添加渐变背景 */
+    color: white;
+    padding: 30px 0;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); /* 添加阴影 */
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    letter-spacing: 1px;
+}
+
+/* 内容布局 */
+.content {
+    display: flex;
+    flex-wrap: wrap; /* 适配小屏幕 */
+    gap: 20px;
+}
+
+/* 左侧用户信息 */
+.user-info {
+    flex: 1;
+    min-width: 300px; /* 设置最小宽度 */
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* 增强阴影 */
+    transition: transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+.user-info:hover {
+    transform: translateY(-2px); /* 鼠标悬停轻微上移 */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* 增强阴影 */
+}
+
+.user-info h2 {
+    margin-bottom: 20px;
+    font-size: 1.8em;
+    color: #1e88e5; /* 使用蓝色强调标题 */
+}
+
+/* 表单样式 */
+#profile-form .form-group {
+    margin-bottom: 20px;
+}
+
+#profile-form label {
+    display: block;
+    margin-bottom: 8px;
+    color: #555;
+    font-weight: bold;
+}
+
+#profile-form input,
+#profile-form textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-size: 14px;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+#profile-form input:focus,
+#profile-form textarea:focus {
+    border-color: #42a5f5; /* 焦点状态边框变蓝 */
+    box-shadow: 0 0 8px rgba(66, 165, 245, 0.3);
+    outline: none;
+}
+
+#profile-form textarea {
+    resize: vertical; /* 允许垂直调整高度 */
+    height: 120px;
+}
+
+#update-profile {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+#update-profile:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+}
+
+/* 右侧用户评论 */
+.user-comments {
+    flex: 1;
+    min-width: 300px;
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+.user-comments:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.user-comments h2 {
+    margin-bottom: 20px;
+    font-size: 1.8em;
+    color: #1e88e5;
+}
+
+#comments-container {
+    font-size: 14px;
+    color: #555;
+}
+
+.comment-box {
+    border-bottom: 1px solid #eee;
+    padding: 15px 0;
+    margin-bottom: 15px;
+}
+
+.comment-box:last-child {
+    border-bottom: none;
+}
+
+.comment-box p {
+    margin: 8px 0;
+}
+
+.comment-box strong {
+    color: #333;
+}
+
+/* 头像样式 */
+#avatar-container {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid #1e88e5; /* 使用更醒目的蓝色边框 */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#avatar:hover {
+    transform: scale(1.05); /* 鼠标悬停放大 */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}

@@ -1,0 +1,142 @@
+/* 页面通用样式 */
+body {
+    font-family: "Microsoft YaHei", Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+h3 {
+    margin: 0 0 10px;
+    font-size: 18px;
+    color: #444;
+}
+
+/* 地图容器 */
+#map {
+    width: 100%;
+    height: 500px;
+    border: 2px solid #ddd;
+    margin-bottom: 20px;
+}
+
+/* 路线控制区域 */
+#route-controls {
+    margin: 0 auto;
+    padding: 15px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    max-width: 800px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#route-controls h3 {
+    font-size: 20px;
+    color: #333;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+/* 景点列表样式 */
+#selectedAttractionsList {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#selectedAttractionsList li {
+    padding: 10px 15px;
+    margin-bottom: 5px;
+    background-color: #f7f7f7;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+#selectedAttractionsList li:hover {
+    background-color: #eaeaea;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#selectedAttractionsList li:active {
+    background-color: #ddd;
+}
+
+/* 按钮样式 */
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.1s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+button:active {
+    transform: scale(0.98);
+}
+
+/* 响应式布局 */
+@media screen and (max-width: 768px) {
+    #map {
+        height: 400px;
+    }
+
+    #route-controls {
+        padding: 10px;
+    }
+
+    #selectedAttractionsList li {
+        font-size: 14px;
+        padding: 8px 10px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #map {
+        height: 300px;
+    }
+
+    #selectedAttractionsList li {
+        font-size: 12px;
+        padding: 6px 8px;
+    }
+
+    button {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+}
+.map-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+#map {
+    width: 100%;
+    height: 100%;
+}
+
+.controls-overlay {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 8px;
+    z-index: 1000;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+}

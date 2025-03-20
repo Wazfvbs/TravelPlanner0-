@@ -1,0 +1,18 @@
+<component name="libraryTable">
+  <library name="apache-tomcat-9.0">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../../apache-tomcat-9.0.1-src/apache-tomcat-9.0.1-src" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/../../apache-tomcat-9.0.1-src/apache-tomcat-9.0.1-src/java" />
+      <root url="file://$PROJECT_DIR$/../../apache-tomcat-9.0.1-src/apache-tomcat-9.0.1-src/modules/jdbc-pool/src/main/java" />
+      <root url="file://$PROJECT_DIR$/../../apache-tomcat-9.0.1-src/apache-tomcat-9.0.1-src/modules/jdbc-pool/src/test/java" />
+      <root url="file://$PROJECT_DIR$/../../apache-tomcat-9.0.1-src/apache-tomcat-9.0.1-src/test" />
+      <root url="file://$PROJECT_DIR$/../../apache-tomcat-9.0.1-src/apache-tomcat-9.0.1-src/webapps/docs/appdev/sample/src" />
+      <root url="file://$PROJECT_DIR$/../../apache-tomcat-9.0.1-src/apache-tomcat-9.0.1-src/webapps/examples/WEB-INF/classes" />
+      <root url="file://$PROJECT_DIR$/../../apache-tomcat-9.0.1-src/apache-tomcat-9.0.1-src/webapps/examples/WEB-INF/jsp/applet" />
+      <root url="file://$PROJECT_DIR$/../../apache-tomcat-9.0.1-src/apache-tomcat-9.0.1-src/webapps/examples/jsp/plugin/applet" />
+    </SOURCES>
+  </library>
+</component>
